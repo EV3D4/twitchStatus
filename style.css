@@ -1,0 +1,82 @@
+.appHeader{
+  margin-left: 2%;
+
+}
+.appButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+
+.allButton {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #555555;
+  width: 99px;
+  height: 38px;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 0px;
+  text-decoration: none;
+
+}
+
+.onlineButton {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #3498db;
+  width: 99px;
+  height: 38px;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+  text-decoration: none;
+
+}
+
+.offlineButton {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #f44336;
+  width: 99px;
+  height: 38px;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+  text-decoration: none;
+}
+
+.returnUserName{
+  padding: 2% 0% 0% 2%;;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.bigBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.smallBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: .5vw;
+}
+
+.userIMG{
+  margin: 1px;
+  height: 75px;
+  border-radius: 55px;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.58);
+-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.58);
+box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.58);
+}
+
+.userLogo{
+  padding: 10px;
+  width: 100px;
+}
